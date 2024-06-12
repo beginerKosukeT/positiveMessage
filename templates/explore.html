@@ -1,0 +1,38 @@
+{{ template "header" .}}
+<h5>人気の投稿</h5>
+<div class="d-flex mb-3 mx-1 flex-wrap">
+    {{if gt (len .FavoritePostList) 0}}
+    {{range $n,$Itm := .FavoritePostList}}
+    <div class="w-25 border d-flex">
+        <img src="images/sg{{$Itm.User.IconNumber}}.png" width="75" height="75">
+        <div class="overflow-x-hidden text-nowrap">
+            <h5>
+                <a href="/postDetail?postId={{$Itm.Post.Model.ID}}">{{$Itm.PostTitle}}</a>
+            </h5>
+            {{$Itm.UserName}}
+        </div>
+    </div>
+    {{end}}
+    {{else}}
+    <h6 class="my-4 mx-2 text-secondary">投稿はまだありません。</h6>
+    {{end}}
+</div>
+<h5>新作</h5>
+<div class="d-flex mb-3 mx-1 flex-wrap">
+    {{if gt (len .LatestPostList) 0}}
+    {{range $n,$Itm := .LatestPostList}}
+    <div class="w-25 border d-flex">
+        <img src="images/sg{{$Itm.User.IconNumber}}.png" width="75" height="75">
+        <div class="overflow-x-hidden text-nowrap">
+            <h5>
+                <a href="/postDetail?postId={{$Itm.Post.Model.ID}}">{{$Itm.PostTitle}}</a>
+            </h5>
+            {{$Itm.UserName}}
+        </div>
+    </div>
+    {{end}}
+    {{else}}
+    <h6 class="my-4 mx-2 text-secondary">投稿はまだありません。</h6>
+    {{end}}
+</div>
+{{ template "footer" .}}

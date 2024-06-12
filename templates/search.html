@@ -1,0 +1,36 @@
+{{ template "header" .}}
+<form method="POST" action="/search">
+    <div class="input-group mb-3 w-50">
+        <span class="input-group-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+        </span>
+        <input type="text" class="form-control" name="searchInput">
+    </div>
+</form>
+<h5>検索結果</h5>
+<div class="d-flex mb-3 mx-1 flex-wrap">
+    {{if gt (len .PostList) 0}}
+    {{range $n,$Itm := .PostList}}
+    <div class="w-25 border d-flex">
+        <img src="images/sg{{$Itm.User.IconNumber}}.png" width="75" height="75">
+        <div class="overflow-x-hidden  text-nowrap">
+            <h5>
+                <a href="/postDetail?postId={{$Itm.Post.Model.ID}}">{{$Itm.PostTitle}}</a>
+            </h5>
+            {{$Itm.UserName}}
+        </div>
+    </div>
+    {{end}}
+
+    {{else if .NoMatchFlag}}
+    <h6 class="my-4 mx-2 text-secondary">該当する投稿が見つかりませんでした。別のキーワードを入力してEnterキーを押してください。</h6>
+    
+    {{else}}
+    <h6 class="my-4 mx-2 text-secondary">キーワードを入力してEnterキーを押してください。</h6>
+    {{end}}
+</div>
+{{ template "footer" .}}

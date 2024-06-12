@@ -1,0 +1,101 @@
+{{ template "header" .}}
+<div class="d-flex justify-content-end">
+    <div>
+        <button onclick="javascript:play('{{.PostOverview.Body}}')" class="btn btn-light border me-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play my-1"
+                viewBox="0 0 16 16">
+                <path
+                    d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" />
+            </svg>
+        </button>
+    </div>
+    <div>
+        <button onclick="javascript:cancel()" class="btn btn-light border me-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stop my-1"
+                viewBox="0 0 16 16">
+                <path
+                    d="M3.5 5A1.5 1.5 0 0 1 5 3.5h6A1.5 1.5 0 0 1 12.5 5v6a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 11V5zM5 4.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5H5z" />
+            </svg>
+        </button>
+    </div>
+    <form method="post" action="/postDetail?postId={{.PostOverview.Post.Model.ID}}">
+        <input type="hidden" name="postId" value="{{.PostOverview.Post.Model.ID}}">
+        <input type="hidden" name="userId" value="{{.UserId}}">
+        {{if .SavedFlag}}
+        <input type="hidden" name="form" value="cancelSave">
+        <button type="submit" class="btn btn-light border me-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check my-1"
+                viewBox="0 0 16 16">
+                <path
+                    d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+            </svg>
+        </button>
+        {{else}}
+        <input type="hidden" name="form" value="save">
+        <button type="submit" class="btn btn-light border me-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus my-1"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+        </button>
+        {{end}}
+    </form>
+
+    <form method="post" action="/postDetail?postId={{.PostOverview.Post.Model.ID}}">
+        <input type="hidden" name="postId" value="{{.PostOverview.Post.Model.ID}}">
+        <input type="hidden" name="userId" value="{{.UserId}}">
+        {{if .LikedFlag}}
+        <input type="hidden" name="form" value="cancelLike">
+        <button type="submit" class="btn btn-light border">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+            </svg>
+            {{.PostOverview.Post.NumberOfLikes}}
+        </button>
+        {{else}}
+        <input type="hidden" name="form" value="like">
+        <button type="submit" class="btn btn-light border">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart"
+                viewBox="0 0 16 16">
+                <path
+                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+            </svg>
+            {{.PostOverview.Post.NumberOfLikes}}
+        </button>
+        {{end}}
+    </form>
+</div>
+<div class="d-flex  justify-content-between mx-5">
+    <div class="d-flex">
+        <img src="images/sg{{.PostOverview.User.IconNumber}}.png" width="200" height="200">
+        <div class="text-break w-75">
+            <h1>{{.PostOverview.PostTitle}}</h1>
+            <h3 class="mx-3">{{.PostOverview.Body}}</h3>
+        </div>
+    </div>
+    <h3 class="text-secondary mt-1 text-nowrap">{{.PostOverview.User.UserName}}</h3>
+</div>
+
+<div class="mx-3">
+    <h2 class="mt-5">{{.PostOverview.User.UserName}}の投稿</h2>
+    <div class="d-flex mx-1 flex-wrap">
+        {{if gt (len .RelatedPostList) 0}}
+        {{range $n,$Itm := .RelatedPostList}}
+        <div class="w-25 border d-flex">
+            <img src="images/sg{{$Itm.User.IconNumber}}.png" width="75" height="75">
+            <div class="overflow-x-hidden text-nowrap">
+                <h5><a href="/postDetail?postId={{$Itm.Post.Model.ID}}">{{$Itm.PostTitle}}</a></h5>
+                {{$Itm.UserName}}
+            </div>
+        </div>
+        {{end}}
+        {{else}}
+        <h6 class="my-4 mx-2 text-secondary">{{.PostOverview.User.UserName}}が作成した投稿はまだありません。</h6>
+        {{end}}
+    </div>
+</div>
+{{ template "footer" .}}
