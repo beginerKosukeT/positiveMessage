@@ -31,10 +31,10 @@
 |<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/a24c067b-8a2b-4a5e-bfa6-db1be33a0829">|<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/f734c669-0977-474c-addc-6fab773503c5">|
 |タイトルで検索することができる|新規投稿ができる(JavaScriptによるエラーハンドリングに対応)|
 
-| 投稿の詳細画面 | 
-| - |
-|<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/43a589ad-1268-4397-8812-b94c028b2b75">|
-|投稿の詳細が表示され、保存・お気に入りをすることができる<br>本画面での読み上げも可能|
+| 投稿の詳細画面 || 
+| - | - |
+|<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/43a589ad-1268-4397-8812-b94c028b2b75">||
+|投稿の詳細が表示され、保存・お気に入りをすることができる<br>本画面での読み上げも可能|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
