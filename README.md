@@ -28,9 +28,8 @@
 
 | 検索画面 | 新規投稿画面|
 | - | - |
-|<img width="601" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/a24c067b-8a2b-4a5e-bfa6-db1be33a0829">
-<img width="602" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/4db522df-8f05-4f88-b9f7-b37f454a91de">|<img width="681" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/f734c669-0977-474c-addc-6fab773503c5">|
-|投稿のタイトルで検索することができる|新規投稿ができる(JavaScriptによる動的エラーハンドリングに対応)|
+|<img width="601" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/a24c067b-8a2b-4a5e-bfa6-db1be33a0829">|<img width="681" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/f734c669-0977-474c-addc-6fab773503c5">|
+|投稿のタイトルを使って検索することができる|新規投稿ができる(JavaScriptによる動的エラーハンドリングに対応)|
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
