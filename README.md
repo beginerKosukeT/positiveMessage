@@ -19,7 +19,12 @@
 | トップ画面 (新規登録画面) | ログイン画面 |
 | - | - |
 |<img width="650" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/d538f610-af38-4de0-be12-26b9546f442a">|<img width="639" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/83cdeaf9-fad3-4e3b-99fe-1a017d9e46cd">|
-|トップにサイトの概要説明が表示され、新規アカウント登録を実行できる|セッション機能を利用してログインすることができる|
+|上部に本サイトの概要説明が表示され、新規アカウント登録をできる|セッション機能を利用してログインすることができる|
+
+| マイページ | 人気の投稿&新作画面 |
+| - | - |
+|<img width="642" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/7223a15c-36be-4743-a7aa-9de9e0d96f72<img width="896" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/819724c9-2e07-4e28-963f-537f556af97a">|
+|保存・お気に入りした投稿、自身が作成した投稿が表示され、それらを連続で読み上げることができる(スキップや一時停止にも対応)|お気に入り数の多い投稿、作成日時が各8件まで新しい投稿が表示される|
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
