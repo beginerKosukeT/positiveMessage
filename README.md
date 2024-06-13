@@ -33,7 +33,7 @@
 
 | 投稿の詳細画面 || 
 | - | - |
-|<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/43a589ad-1268-4397-8812-b94c028b2b75">||
+|<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/43a589ad-1268-4397-8812-b94c028b2b75">|<img width="460" alt="image" src="![image](https://github.com/beginerKosukeT/positiveMessage/assets/144611948/55b7e9e8-8305-49af-8ca0-58af2946233a)">|
 |投稿の詳細が表示され、保存・お気に入りをすることができる<br>本画面での読み上げも可能|　　　　　　　　　　　　　　　　　　　　　　　　　　|
 
 ## テスト
