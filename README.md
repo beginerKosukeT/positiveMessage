@@ -19,7 +19,7 @@
 | トップ画面 (新規登録画面)                                                                                                 |  ログイン画面                                                                                             |
 | - | - |
 |<img width="650" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/d538f610-af38-4de0-be12-26b9546f442a">|
-<img width="639" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/83cdeaf9-fad3-4e3b-99fe-1a017d9e46cd">
+<img width="639" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/83cdeaf9-fad3-4e3b-99fe-1a017d9e46cd">|
 |トップにサイトの概要説明が表示され、新規アカウント登録を実行できる|セッション機能を利用してログインすることができる|
 
 ## テスト
