@@ -34,7 +34,7 @@
 | 投稿の詳細画面 || 
 | - | - |
 |<img width="460" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/43a589ad-1268-4397-8812-b94c028b2b75">||
-|投稿の詳細が表示され、保存・お気に入りをすることができる<br>本画面での読み上げも可能|　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　|
+|投稿の詳細が表示され、保存・お気に入りをすることができる<br>本画面での読み上げも可能|　　　　　　　　　　　　　　　　　　　　　　　　　|
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
