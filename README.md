@@ -7,8 +7,11 @@
   <a href="https://positive-message-254febcb568f.herokuapp.com/regisration">Positive Message</a>
 
 ## 使用技術
-バックエンド：Go言語　フロントエンド：JavaScript,HTML, CSS(Bootstrap)　DB：MySQL<br>
-【補足】音声の読み上げ：WebSpeechAPI　デプロイ先：Heroku
+- バックエンド：Go言語(go1.22.0)
+- フロントエンド：JavaScript,HTML,Bootstrap(5.3.0)
+- DB：MySQL(8.0.35)
+- 音声の読み上げ：Web Speech API
+- デプロイ先：Heroku
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
