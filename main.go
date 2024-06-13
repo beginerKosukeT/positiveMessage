@@ -2,7 +2,7 @@
 // package main
 
 // import (
-// 	"go0529/models"
+// 	"positiveMessage/models"
 
 // 	_ "github.com/go-sql-driver/mysql"
 // )
