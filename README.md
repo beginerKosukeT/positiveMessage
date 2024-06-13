@@ -19,7 +19,7 @@
 | トップ画面 (新規登録画面) | ログイン画面 |
 | - | - |
 |<img width="600" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/d538f610-af38-4de0-be12-26b9546f442a">|<img width="600" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/83cdeaf9-fad3-4e3b-99fe-1a017d9e46cd">|
-|上部に本サイトの概要説明が表示され、新規アカウント登録をできる|セッション機能を利用してログインすることができる|
+|上部に本サイトの概要説明が表示され、新規アカウント登録をできる(JavaScriptによるエラーハンドリングに対応)|セッション機能を利用してログインすることができる|
 
 | マイページ | 人気の投稿&新作画面 |
 | - | - |
@@ -29,7 +29,7 @@
 | 検索画面 | 新規投稿画面|
 | - | - |
 |<img width="601" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/a24c067b-8a2b-4a5e-bfa6-db1be33a0829">|<img width="681" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/f734c669-0977-474c-addc-6fab773503c5">|
-|投稿のタイトルを使って検索することができる|新規投稿ができる(JavaScriptによる動的エラーハンドリングに対応)|
+|投稿のタイトルを使って検索することができる|新規投稿ができる(JavaScriptによるエラーハンドリングに対応)|
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
