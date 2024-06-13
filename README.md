@@ -23,7 +23,7 @@
 
 | マイページ | 人気の投稿&新作画面 |
 | - | - |
-|<img width="642" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/7223a15c-36be-4743-a7aa-9de9e0d96f72<img width="896" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/819724c9-2e07-4e28-963f-537f556af97a">|
+|<img width="642" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/7223a15c-36be-4743-a7aa-9de9e0d96f72>|<img width="896" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/819724c9-2e07-4e28-963f-537f556af97a">|
 |保存・お気に入りした投稿、自身が作成した投稿が表示され、それらを連続で読み上げることができる(スキップや一時停止にも対応)|お気に入り数の多い投稿、作成日時が各8件まで新しい投稿が表示される|
 
 ## テスト
