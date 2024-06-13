@@ -18,7 +18,7 @@
 ## 機能一覧
 | トップ画面 (新規登録画面) | ログイン画面 |
 | - | - |
-|<img width="650" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/d538f610-af38-4de0-be12-26b9546f442a">|<img width="639" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/83cdeaf9-fad3-4e3b-99fe-1a017d9e46cd">|
+|<img width="642" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/d538f610-af38-4de0-be12-26b9546f442a">|<img width="639" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/83cdeaf9-fad3-4e3b-99fe-1a017d9e46cd">|
 |上部に本サイトの概要説明が表示され、新規アカウント登録をできる|セッション機能を利用してログインすることができる|
 
 | マイページ | 人気の投稿&新作画面 |
