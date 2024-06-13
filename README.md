@@ -15,9 +15,9 @@
 
 ## 主な機能
 | トップ画面                                                                                                  | ダークモード画面                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| - | - |
 | ![logo](https://github.com/beginerKosukeT/positiveMessage/assets/144611948/0faaf891-8020-4cbf-bd9b-b8cdb2f03289) |![logo](https://github.com/beginerKosukeT/positiveMessage/assets/144611948/0faaf891-8020-4cbf-bd9b-b8cdb2f03289)
-|あ                                    |あ       |
+|あ|あ|
 
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
