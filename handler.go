@@ -242,7 +242,7 @@ func regisration(w http.ResponseWriter, rq *http.Request) {
 		IconNumbersTochoose [43]int
 	}{
 		UserName:            "",
-		Title:               "新規アカウント登録",
+		Title:               "以下を入力して、簡単登録",
 		ErrorFlag:           false,
 		IconNumbersTochoose: iconNumbersTochoose,
 	}

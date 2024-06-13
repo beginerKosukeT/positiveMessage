@@ -2,7 +2,7 @@
 ![image](https://github.com/beginerKosukeT/positiveMessage/assets/144611948/0faaf891-8020-4cbf-bd9b-b8cdb2f03289)
 
 - ### プログラム概要
-  ポジティブなメッセージや元気が出るアドバイスを投稿でき、人工の音声として連続再生すること可能
+  ポジティブなメッセージや元気が出るアドバイスを投稿でき、人工の音声として連続再生することが可能
 - ### 公開先
   <a href="https://positive-message-254febcb568f.herokuapp.com/regisration">Positive Message</a>
 

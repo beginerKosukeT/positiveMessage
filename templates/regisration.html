@@ -2,10 +2,6 @@
 {{if .ErrorFlag}}
 <h5 class="text-danger mb-3">入力されたユーザー名またはメールアドレスは既に登録済みです。</h5>
 {{end}}
-<div class="d-flex justify-content-center align-items-center border border-warning border-5 mb-3">
-    <h3 class="my-1">アクセスいただきありがとうございます。デモ用ログイン画面に遷移して頂けますと幸いです→</h3>
-    <button class="btn btn-warning text-" type="button" onclick="location.href='/login'">デモ用ログイン</button>
-</div>
 <h4>ユーザーアイコンを選択してください。</h4>
 {{range $n,$Num := .IconNumbersTochoose}}
 <img src="images/sg{{$Num}}.png" class="border mb-1" width="75" height="75" onclick="iconClick('{{$Num}}')"
