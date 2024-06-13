@@ -1,5 +1,5 @@
 # Positive Message
-![alt text](image.png)
+<img src="image.png">
 ### プログラム概要
 ポジティブなメッセージや元気が出るアドバイスを投稿でき、人工の音声として連続再生すること可能
 ### 公開先
