@@ -26,6 +26,12 @@
 |<img width="600" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/0a8fd561-69e9-4264-b857-f38c026c6a92">|<img width="600" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/819724c9-2e07-4e28-963f-537f556af97a">|
 |保存・お気に入りした投稿、自身が作成した投稿が表示され、それらを連続で読み上げることができる(スキップや一時停止にも対応)|お気に入り数の多い投稿、作成日時が各8件まで新しい投稿が表示される|
 
+| 検索画面 | 新規投稿画面|
+| - | - |
+|<img width="601" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/a24c067b-8a2b-4a5e-bfa6-db1be33a0829">
+<img width="602" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/4db522df-8f05-4f88-b9f7-b37f454a91de">|<img width="681" alt="image" src="https://github.com/beginerKosukeT/positiveMessage/assets/144611948/f734c669-0977-474c-addc-6fab773503c5">|
+|投稿のタイトルで検索することができる|新規投稿ができる(JavaScriptによる動的エラーハンドリングに対応)|
+
 ## テスト
 単体テストを実施(<a href="https://app.box.com/s/qdgiyqzxdfu0vaslqy4kaxyuf0m9dqez">単体テスト.xlsx</a>)
 
