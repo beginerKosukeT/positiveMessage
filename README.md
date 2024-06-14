@@ -41,6 +41,10 @@
 
 ![test](https://github.com/beginerKosukeT/positiveMessage/assets/144611948/a593f24d-7561-4dd6-ab5c-3e89ca4ac00c)
 
+## ER図
+![ERD](https://github.com/beginerKosukeT/positiveMessage/assets/144611948/b9e0296f-1842-4091-a273-917ead4067d6)
+
+
 ## 画像ダウンロード元
 - <a href="https://www.san-x.co.jp/sumikko/profile/">すみっコぐらしofficial web site プロフィール</a>
 - <a href="https://sunheart-shop.com/c/gr1/san-x/sumikkogurashi"> すみっコぐらし | 丸眞オンラインショップ</a>
