@@ -10,7 +10,7 @@ import (
 
 // Migrate program.
 func Migrate() {
-	db, er := gorm.Open("mysql", "root:black14bsk@tcp(localhost:3306)/db0529")
+	db, er := gorm.Open("mysql", "root:jfewoiHfw4ji2!ffo2@tcp(localhost:3306)/db0529")
 	if er != nil {
 		fmt.Println(er)
 		return
