@@ -4,7 +4,7 @@
 - ### プログラム概要
   ポジティブなメッセージや元気が出るアドバイスを投稿でき、人工の音声として連続再生することが可能
 - ### 公開先
-  <a href="https://positive-message-254febcb568f.herokuapp.com/regisration">Positive Message (公開停止中)</a>
+  公開停止
 
 ## 使用技術
 - バックエンド：Go言語(go1.22.0)
